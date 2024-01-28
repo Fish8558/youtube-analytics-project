@@ -1,8 +1,9 @@
 from googleapiclient.discovery import build
 import os
+from src.apisettings import ApiSettings
 
 
-class Video:
+class Video(ApiSettings):
     """
     Класс который инициализируется 'id видео' и 'id плейлиста'
     """
